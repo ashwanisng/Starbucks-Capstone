@@ -15,6 +15,9 @@ Project in Data Scientist Nanodegree of Udacity
 
 6 . [Blog Website](#Blog)
 
+![coffe](https://user-images.githubusercontent.com/44340485/89125127-d264fb80-d4f9-11ea-87d0-0376d93bfc0f.jpeg)
+
+
 
 ## Installation <a name="installation"></a>
 
