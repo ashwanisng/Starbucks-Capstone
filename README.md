@@ -15,7 +15,6 @@ Project in Data Scientist Nanodegree of Udacity
 
 6 . [Blog Website](#Blog)
 
-7 . [Licensing, Authors, and Acknowledgements](#licensing)
 
 ## Installation <a name="installation"></a>
 
@@ -84,4 +83,4 @@ For the rest of costumers, we introduced filters that help the system make recom
 
 We evaluated the recommendation systems by using visualizations from the data.
 ## Blog Website <a name="Blog"></a>
-A blog has been published in this site
+A blog has been published  [Analyzing The Starbuck Offers](https://medium.com/@ashwanisng/analyzing-the-starbuck-offers-9ab7653456a8)
