@@ -9,11 +9,9 @@ Project in Data Scientist Nanodegree of Udacity
 
 3 . [File Descriptions](#files)
 
-4 - [Exploratory Analysis](#Analysis)
+4 - [Data Model](#Model)
 
-5 - [Recommendation Engine](#Recommendation)
-
-6 . [Blog Website](#Blog)
+5 . [Blog Website](#Blog)
 
 ![coffe](https://user-images.githubusercontent.com/44340485/89125127-d264fb80-d4f9-11ea-87d0-0376d93bfc0f.jpeg)
 
@@ -75,15 +73,8 @@ Here is the schema and explanation of each variable in the files:
 - value - (dict of strings) - either an offer id or transaction amount depending on the record
 
 
-## Exploratory Analysis <a name="Analysis"></a>
+## Data Model <a name="Model"></a>
+Six different models with accuracy and f1-score being the primary metrics are build to predict whether a customer will respond to an offer. Before building models, our dataset should be split into train and test datasets so a model doesn't overfit the data, and also test dataset is used to evaluate how well our models are performing.
 
-In this stage, we analyzed the population based on their demographics and their spending behavior. We also took into account the interactions between the customers and the offers provided.
-
-## Recommendation Engine <a name="Recommendation"></a>
-We used a knowledge based recommendation engine in this project. We provided one that selects the most popular offers without considering demographics, first. This system is a good start for customers that do not provide any demographic data in the app.
-
-For the rest of costumers, we introduced filters that help the system make recommendations based on the demographic data provided by the customers.
-
-We evaluated the recommendation systems by using visualizations from the data.
 ## Blog Website <a name="Blog"></a>
 A blog has been published  [Analyzing The Starbuck Offers](https://medium.com/@ashwanisng/analyzing-the-starbuck-offers-9ab7653456a8)
