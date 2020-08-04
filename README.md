@@ -77,4 +77,4 @@ Here is the schema and explanation of each variable in the files:
 Six different models with accuracy and f1-score being the primary metrics are build to predict whether a customer will respond to an offer. Before building models, our dataset should be split into train and test datasets so a model doesn't overfit the data, and also test dataset is used to evaluate how well our models are performing.
 
 ## Blog Website <a name="Blog"></a>
-A blog has been published  [Analyzing The Starbuck Offers](https://medium.com/@ashwanisng/analyzing-the-starbuck-offers-9ab7653456a8)
+A blog has been published  [Analyzing The Starbuck Offers](https://medium.com/@ashwanisng/analyzing-the-starbuck-offers-4189fef3a8cf?sk=961444e8e30bf726443467a5aa436752)
