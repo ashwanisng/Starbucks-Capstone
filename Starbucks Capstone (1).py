@@ -1615,12 +1615,32 @@ X_scaled[features] = scaler.fit_transform(X_scaled[features])
 X_scaled.head()
 
 
+# ### Metrices
+#  
+# - In order to evaluate our model performance we are using the accuracy.
+# 
+#     Here are the following reason for choosing this metrices -
+# 
+# - We are using the simple classification problem 
+#     - 1) Offer viewed
+#     - 2) Offer completed
+# - To know how our model is performing we will compare our model with number of correct prediction to total number of prediction (accuracy).
+# 
+
 # In[164]:
 
 
 # creating training and testing sets 
 X_train, X_test, y_train, y_test = train_test_split(X, Y, random_state=42)
 
+
+# As we mentioned above -
+# 
+# - In order to evaluate our model performance we are using the accuracy.
+# - We are using the simple classification problem 
+#     - 1) Offer viewed
+#     - 2) Offer completed
+# - To know how our model is performing we will compare our model with number of correct prediction to total number of prediction (accuracy).
 
 # In[165]:
 
@@ -1751,9 +1771,7 @@ df_results
 
 # ## Model Refinment
 
-# Althgough I believe on the saying  " There is always a room for Improvement", But I think that the **KNeighborsClassifier** model is giving me a really high score. Trying to improve such model will surely cause us to get into the fault of Overfitting. 
-# So, I will not suggest any improvement on this model since I believe that we don't need to try to get better results.
-# 
+# I personally belive that nothing is perfect so everything can improved further. But now in this case i think **KNeighborsClassifier** model is satisfying. Becasuse it already gives us a very high score and and further if we tried to improve this then this will leads to overfitting.
 
 # # Conclusion
 
