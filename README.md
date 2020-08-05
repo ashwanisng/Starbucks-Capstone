@@ -74,7 +74,15 @@ Here is the schema and explanation of each variable in the files:
 
 
 ## Data Model <a name="Model"></a>
-Six different models with accuracy and f1-score being the primary metrics are build to predict whether a customer will respond to an offer. Before building models, our dataset should be split into train and test datasets so a model doesn't overfit the data, and also test dataset is used to evaluate how well our models are performing.
+- After pre-processing the dataset and after visualization the next part is to make a model that figure out whether the customer responded to offer or not.
+
+- Here we use six different types of models that will predict whether the customer responded to offer or not.
+
+- To make a model we will split the data into features and target and also in training and testing data.
+
+> Features are time_h, offer_id, amount, reward_x ( Will be renamed to ‘reward’), difficulty, duration_h, offer_type, gender, age_group, income_range, member_type
+
+> Target is the event.
 
 ## Blog Website <a name="Blog"></a>
-A blog has been published  [Analyzing The Starbuck Offers](https://medium.com/@ashwanisng/analyzing-the-starbuck-offers-4189fef3a8cf?sk=961444e8e30bf726443467a5aa436752)
+A blog has been published  [Analyzing The Starbuck Offers](https://medium.com/@ashwanisng/analyzing-the-starbuck-offers-4189fef3a8cf)
