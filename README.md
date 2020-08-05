@@ -74,11 +74,15 @@ Here is the schema and explanation of each variable in the files:
 
 
 ## Data Model <a name="Model"></a>
-After pre-processing the dataset and after visualization the next part is to make a model that figure out whether the customer responded to offer or not.
-Here we use six different types of models that will predict whether the customer responded to offer or not.
-To make a model we will split the data into features and target and also in training and testing data.
-Features are time_h, offer_id, amount, reward_x ( Will be renamed to ‘reward’), difficulty, duration_h, offer_type, gender, age_group, income_range, member_type
-Target is the event.
+- After pre-processing the dataset and after visualization the next part is to make a model that figure out whether the customer responded to offer or not.
+
+- Here we use six different types of models that will predict whether the customer responded to offer or not.
+
+- To make a model we will split the data into features and target and also in training and testing data.
+
+> Features are time_h, offer_id, amount, reward_x ( Will be renamed to ‘reward’), difficulty, duration_h, offer_type, gender, age_group, income_range, member_type
+
+> Target is the event.
 
 ## Blog Website <a name="Blog"></a>
 A blog has been published  [Analyzing The Starbuck Offers](https://medium.com/@ashwanisng/analyzing-the-starbuck-offers-4189fef3a8cf)
